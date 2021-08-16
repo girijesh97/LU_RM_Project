@@ -33,11 +33,14 @@ After merging all 8 files, a single `dataframe` was created which has ----- numb
 1. Created Word Cloud to see most frequently occuring words with and without stopwords.
 2. Looked out for profanity in each sentence and plotted a bar graph to see how many sentences contains profanity in it.
 3. Analyzes maximum and minimum length of sentence to creat an effective model.
+
 ## Model Building
 #### 1. Support Vector Machine (SVM)
 Created Linear SVM and Kernel SVM as a baseline machine learning to check performance of machine learning model on text data. Both model uses following approach:
 * Vectorized data using TF-IDF mechanism
 * Split data into train, test and validation set
-* Train both model using Scikit learn library.
+* Trained both model using Scikit learn library.
+#### 2. GRU with GloVe Embedding 
+
 
 
