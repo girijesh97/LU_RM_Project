@@ -36,8 +36,8 @@ After merging all 8 files, a single `dataframe` was created which has ----- numb
 ## Model Building
 #### 1. Support Vector Machine (SVM)
 Created Linear SVM and Kernel SVM as a baseline machine learning to check performance of machine learning model on text data. Both model uses following approach:
-a. Vectorized data using TF-IDF mechanism
-b. Split data into train, test and validation set
-c. Train both model using Scikit learn library.
+* Vectorized data using TF-IDF mechanism
+* Split data into train, test and validation set
+* Train both model using Scikit learn library.
 
 
