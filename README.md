@@ -21,5 +21,23 @@ The dataset which has been used for this project can be found at (https://data.m
 ## Data Pre-processing
 After merging all 8 files, a single `dataframe` was created which has ----- number of rows. But this data has many duplicates rows and balnk rows aliong with other anamolies. Following list shows the data processing steps.
 1. Converted all text to lower.
-2. 
+2. Fixed contraction like `isn't` to `is not` from text.
+3. Removed hyperlink from text.
+4. Removed punctuations from text.
+5. Remove single characters except `a`.
+6. Removed all Non ASCII characters from text.
+7. Trimmed extra space from text.
+8. Removed stopwords from the text.
+9. Balanced output label counts. 
+## Data Analysis
+1. Created Word Cloud to see most frequently occuring words with and without stopwords.
+2. Looked out for profanity in each sentence and plotted a bar graph to see how many sentences contains profanity in it.
+3. Analyzes maximum and minimum length of sentence to creat an effective model.
+## Model Building
+#### 1. Support Vector Machine (SVM)
+Created Linear SVM and Kernel SVM as a baseline machine learning to check performance of machine learning model on text data. Both model uses following approach:
+a. Vectorized data using TF-IDF mechanism
+b. Split data into train, test and validation set
+c. Train both model using Scikit learn library.
+
 
