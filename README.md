@@ -85,7 +85,7 @@ A bidirectional Encoder Representation that uses transformers as its base archit
 * We determine the effectiveness of the model, F-1 Score, accuracy, precision and recall.
 
 ## Result
-Following accuracy, precision, recall and F-1 score were obtained on a different model
+Following accuracy, precision, recall and F-1 score were obtained on test data
 
 Model    | Linear SVM | Kernel SVM | GRU + GloVe | RoBERTa + MLP  
 ---      | ---        | ---        | ---         |---            
