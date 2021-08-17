@@ -14,7 +14,7 @@ This repository contains python code to detect cyberbullying in text using machi
 # Project Description
 
 ## Workflow
-
+![alt text](https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_12.png)
 
 ## Introduction
 This repo contains `Lakehead_RM_Project` notebook which contains code for following work.
