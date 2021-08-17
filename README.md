@@ -3,7 +3,7 @@ This repository contains python code to detect cyberbullying in text using machi
 
 ## How to run the code
 ### TODO
-1. Open the notebook in Google Colab. Here is a short video tutorial about how to use Google Colab (https://www.youtube.com/watch?v=inN8seMm7UI) or if you prefer reading a blog then please visit this link to learn about Google Colab (https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c).
+1. Open the notebook in Google Colab. Here is a short video tutorial about how to use Google Colab (https://www.youtube.com/watch?v=inN8seMm7UI) or if you prefer reading a blog then please visit this <a href="https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c">link</a> to learn about Google Colab.
 2. Once the notebook is open, you need to install the packages required for the project. Simply run the first block of the notebook, it will install all required libraries. The second block of the notebook will import all libraries required for the project.
 3. After this you may need to download the data using this link ((https://data.mendeley.com/datasets/jf4pzyvnpj/1)). Unpack this data and upload it to your Google Drive. Since the size of unpacking, data is size 171 Mb that's why it cannot be uploaded to Github.
 4. You may need to change the path of data in the notebook. Replace the path mentioned in the notebook with your data path.
