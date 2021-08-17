@@ -1,6 +1,16 @@
 ## Cyberbullying detection in text using machine learning and deep learning (v 1.0)
 This repository contains python code to detect cyberbullying in text using machine learning algorithms like Support Vector Machine  (SVM), deep learning models like GRU + GloVe, and RoBERTa.
 
+## How to run the code
+### TODO
+1. Open notebook in Google Colab. Here is a short video tutorial about how to use Google Colab (https://www.youtube.com/watch?v=inN8seMm7UI) or if you prefer reading blog then please visit this link to learn about Google Colab (https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c). 
+2. Once notebook is open, you need to install packages required for the project. Simply run the first block of notebook, it will install all required libraries. Second block of the notebook will import all libraries required for the project.
+3. After this you may need to download the data using this link ((https://data.mendeley.com/datasets/jf4pzyvnpj/1)). Unpack this data and upload it to your Google Drive. Since size of unpack data is size 171 mb that's why it cannot be uploaded to Github.
+4. You may need to change path of data in the notebook. Replace the path mentioned in notebook with your data path.
+5. Also, this notebook requires GloVe 300d embedding, to download this embedding please visit this link (https://www.kaggle.com/thanakomsn/glove6b300dtxt). Download the GloVe weight from the link and upload it your Google Drive.
+6. You may need to change the path of variable `glove_path`. Assign google drive path of your glove model in the variable `glove_path`.
+7. After this simply run all the block of notebook to reproduce the results.
+
 ## Introduction
 This repo contains python notebook.
 Notebook 1: This notebook contains code for following work.
