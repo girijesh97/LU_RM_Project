@@ -5,11 +5,12 @@ This repository contains python code to detect cyberbullying in text using machi
 ### TODO
 1. Open the notebook in Google Colab. Here is a short <a href="https://www.youtube.com/watch?v=inN8seMm7UI">video</a> tutorial about how to use Google Colab or if you prefer reading a blog then please visit this <a href="https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c">link</a> to learn about Google Colab.
 2. Once the notebook is open, you need to install the packages required for the project. Simply run the first block of the notebook, it will install all required libraries. The second block of the notebook will import all libraries required for the project.
-3. After this you may need to download the data using this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">link</a>. Unpack this data and upload it to your Google Drive. Since the size of unpacking, data is size 171 Mb that's why it cannot be uploaded to Github.
-4. You may need to change the path of data in the notebook. Replace the path mentioned in the notebook with your data path.
-5. Also, this notebook requires GloVe 300d embedding, to download this embedding please visit this <a href="https://www.kaggle.com/thanakomsn/glove6b300dtxt">link</a>. Download the GloVe weight from the link and upload it to your Google Drive.
-6. You may need to change the path of variable `glove_path`. Assign the google drive path of your glove model in the variable `glove_path`.
-7. After this simply run all the blocks of the notebook to reproduce the results.
+3. After this you may need to download the data using this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">link</a>. Unpack this data and upload it to your Google Drive. After unpacking, size of data becomes 171 Mb that's why it cannot be uploaded to Github.
+4. You may need to change the path of data in the notebook. Replace the path mentioned in the notebook with your data path. It look like following in the notebook
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_15.png" alt="Variable Path" align="center"  width="300" />
+6. Also, this notebook requires GloVe 300d embedding, to download this embedding please visit this <a href="https://www.kaggle.com/thanakomsn/glove6b300dtxt">link</a>. Download the GloVe weight from the link and upload it to your Google Drive.
+7. You may need to change the path of variable `glove_path`. Assign the google drive path of your glove model in the variable `glove_path`.
+8. After this simply run all the blocks of the notebook to reproduce the results.
 
 # Project Description
 
