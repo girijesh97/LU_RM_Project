@@ -17,6 +17,7 @@ This notebook is based on python 3.0+. Most of the library comes pre-installed w
 # Project Description
 
 ## Workflow
+Following diagram shows a complete workflow.
 <img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_12.png" alt="Complete Workflow" align="center"  width="300" />
 
 ## Introduction
@@ -54,14 +55,16 @@ Created Linear SVM and Kernel SVM as baseline machine learning to check the perf
 * Vectorized data using TF-IDF mechanism
 * Split data into train, test and validation set
 * Trained both models using Scikit learn library.
+Following images shows difference between Linear and Kernel SVM hypeplane
 
-<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_06.png" label="Linear and kernel SVM" align="center"  width="300" />                                                                                                                                      
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_06.png" alt="Linear and kernel SVM" align="center"  width="300" />                                                                                                                                      
 
 #### 2. GRU with GloVe Embedding
 GRU is a type of recurrent neural network (RNN) that works great with sequences like text.
 * It can learn the long sequence of text with its special gates.
 * It's well known for the understanding context of a sentence by remembering past information present in the sentence by using its gates.
 * GloVe embedding stands for Global Vectors and it is a count-based, unsupervised learning model that captures both global statistics and local statistics of a corpus, to model the vector representation of words.
+Following image shows a block of GRU unit.
 <img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_07.PNG" alt="GRU architecture" align="center"  width="300" />
 
 #### 3. RoBERTa and Multi-Layer Perceptron (MLP)
@@ -69,6 +72,7 @@ A bidirectional Encoder Representation that uses transformers as its base archit
 * It helps to learn and predict hidden patterns in the text.
 * Modification of the key hyperparameters of BERT, which includes removing the next sentence prediction objective.
 * To achieve even more appropriate classification results, MLP has been added on top of RoBERTa.
+Following image represents architecture of Transformers
 <img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_10.PNG" alt="Transformers architecture" align="center"  width="300" />
 
 ## Model Evaluation
