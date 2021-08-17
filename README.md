@@ -92,4 +92,4 @@ Model    | Linear SVM | Kernel SVM | GRU + GloVe | RoBERTa + MLP
 Accuracy | 0.856      |  0.855     | 0.841       | 0.899      
 Precision| 0.859      |  0.856     | 0.849       | 0.875        
 Recall   | 0.858      |  0.855     | 0.831       | 0.831          
-F-1 Score| 0.858      |  0.855     | 0.836       | 0.88
+F-1 Score| 0.858      |  0.855     | 0.836       | 0.881
