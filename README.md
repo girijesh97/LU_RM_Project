@@ -55,7 +55,7 @@ Created Linear SVM and Kernel SVM as baseline machine learning to check the perf
 * Split data into train, test and validation set
 * Trained both models using Scikit learn library.
 
-<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_06.png" alt="Linear and kernel SVM" align="center"  width="300" />                                                                                                                                      
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_06.png" label="Linear and kernel SVM" align="center"  width="300" />                                                                                                                                      
 
 #### 2. GRU with GloVe Embedding
 GRU is a type of recurrent neural network (RNN) that works great with sequences like text.
