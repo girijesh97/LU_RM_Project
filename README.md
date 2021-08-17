@@ -3,11 +3,11 @@ This repository contains python code to detect cyberbullying in text using machi
 
 ## How to run the code
 ### TODO
-1. Open the notebook in Google Colab. Here is a short video tutorial about how to use Google Colab (https://www.youtube.com/watch?v=inN8seMm7UI) or if you prefer reading a blog then please visit this <a href="https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c">link</a> to learn about Google Colab.
+1. Open the notebook in Google Colab. Here is a short <a href="https://www.youtube.com/watch?v=inN8seMm7UI">video</a> tutorial about how to use Google Colab or if you prefer reading a blog then please visit this <a href="https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c">link</a> to learn about Google Colab.
 2. Once the notebook is open, you need to install the packages required for the project. Simply run the first block of the notebook, it will install all required libraries. The second block of the notebook will import all libraries required for the project.
-3. After this you may need to download the data using this link ((https://data.mendeley.com/datasets/jf4pzyvnpj/1)). Unpack this data and upload it to your Google Drive. Since the size of unpacking, data is size 171 Mb that's why it cannot be uploaded to Github.
+3. After this you may need to download the data using this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">link</a>. Unpack this data and upload it to your Google Drive. Since the size of unpacking, data is size 171 Mb that's why it cannot be uploaded to Github.
 4. You may need to change the path of data in the notebook. Replace the path mentioned in the notebook with your data path.
-5. Also, this notebook requires GloVe 300d embedding, to download this embedding please visit this link (https://www.kaggle.com/thanakomsn/glove6b300dtxt). Download the GloVe weight from the link and upload it to your Google Drive.
+5. Also, this notebook requires GloVe 300d embedding, to download this embedding please visit this <a href="https://www.kaggle.com/thanakomsn/glove6b300dtxt">link</a>. Download the GloVe weight from the link and upload it to your Google Drive.
 6. You may need to change the path of variable `glove_path`. Assign the google drive path of your glove model in the variable `glove_path`.
 7. After this simply run all the blocks of the notebook to reproduce the results.
 
@@ -29,7 +29,7 @@ This repo contains a `Lakehead_RM_Project` notebook which contains code for the 
 This notebook is based on python 3.0+. Most of the library comes pre-installed with Google Colab. Rest required libraries can be installed by running the first block of the code.
 
 ## Dataset
-The dataset which has been used for this project can be found at (https://data.mendeley.com/datasets/jf4pzyvnpj/1). The size of the zipped dataset is `64 mb` which contains 8 different CSV in it. There are 5 columns out of which we will be using `Text` and `oh_label` for our analysis and modelling purpose.
+The dataset which has been used for this project can be found at this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">websit</a>. The size of the zipped dataset is `64 mb` which contains 8 different CSV in it. There are 5 columns out of which we will be using `Text` and `oh_label` for our analysis and modelling purpose.
 
 
 ## Data Pre-processing
