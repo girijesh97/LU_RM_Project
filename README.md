@@ -1,5 +1,5 @@
 ## Cyberbullying detection in text using machine learning and deep learning (v 1.0)
-This repository contains python code to detect cyberbullying in text using machine learning algorithms like Support Vector Machine  (SVM), deep learning models like GRU + GloVe, and RoBERTa.
+This repository contains python code to detect cyberbullying in text using machine learning algorithms like Support Vector Machine  (SVM), deep learning models like GRU + GloVe, and RoBERTa with multi layer perceptron on it.
 
 ## How to run the code
 ### TODO
@@ -64,7 +64,7 @@ GRU is a type of recurrent neural network (RNN) which works great with sequences
 * GloVe embedding stands for Global Vectors and it is a count based, unsupervised learning model that captures both global statistics and local statistics of a corpus, to model the vector representation of words.
 <img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_07.PNG" alt="GRU architecture" align="center"  width="300" />
 
-#### 3. RoBERTa and MLP
+#### 3. RoBERTa and Multi Layer Perceptron (MLP)
 A bidirectional Encoder Representation which uses transformers as its base architecture.
 * It helps to learn and predict hidden patterns in the text.
 * Modification of the key hyperparameters of BERT, which includes removing next sentence prediction objective.
