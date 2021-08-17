@@ -11,6 +11,8 @@ This repository contains python code to detect cyberbullying in text using machi
 6. You may need to change the path of variable `glove_path`. Assign google drive path of your glove model in the variable `glove_path`.
 7. After this simply run all the block of notebook to reproduce the results.
 
+# Project Description
+
 ## Introduction
 This repo contains python notebook.
 Notebook 1: This notebook contains code for following work.
