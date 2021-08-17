@@ -30,7 +30,7 @@ This repo contains a `Lakehead_RM_Project` notebook which contains code for the 
 6. Results
 
 ## Dataset
-The dataset which has been used for this project can be found at this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">websit</a>. The size of the zipped dataset is `64 mb` which contains 8 different CSV in it. There are 5 columns out of which we will be using `Text` and `oh_label` for our analysis and modelling purpose.
+The dataset which has been used for this project can be found at this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">website</a>. The size of the zipped dataset is `64 mb` which contains 8 different CSV in it. There are 5 columns out of which we will be using `Text` and `oh_label` for our analysis and modelling purpose.
 
 
 ## Data Pre-processing
