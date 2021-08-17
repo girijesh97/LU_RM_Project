@@ -1,6 +1,9 @@
 ## Cyberbullying detection in text using machine learning and deep learning (v 1.0)
 This repository contains python code to detect cyberbullying in text using machine learning algorithms like Support Vector Machine  (SVM), deep learning models like GRU + GloVe, and RoBERTa with multi-layer perceptron on it.
 
+## Environment
+This notebook is based on python 3.0+. Most of the library comes pre-installed with Google Colab. Rest required libraries can be installed by running the first block of the code.
+
 ## How to run the code
 ### TODO
 1. Open the notebook in Google Colab. Here is a short <a href="https://www.youtube.com/watch?v=inN8seMm7UI">video</a> tutorial about how to use Google Colab or if you prefer reading a blog then please visit this <a href="https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c">link</a> to learn about Google Colab.
@@ -18,15 +21,12 @@ This repository contains python code to detect cyberbullying in text using machi
 
 ## Introduction
 This repo contains a `Lakehead_RM_Project` notebook which contains code for the following work.
-1. Data Loading
+1. Data
 2. Data Preprocessing
 3. Data Analysis and plotting
 4. Model Building
 5. Model Evaluation
 6. Results
-
-## Environment
-This notebook is based on python 3.0+. Most of the library comes pre-installed with Google Colab. Rest required libraries can be installed by running the first block of the code.
 
 ## Dataset
 The dataset which has been used for this project can be found at this <a href="https://data.mendeley.com/datasets/jf4pzyvnpj/1">websit</a>. The size of the zipped dataset is `64 mb` which contains 8 different CSV in it. There are 5 columns out of which we will be using `Text` and `oh_label` for our analysis and modelling purpose.
