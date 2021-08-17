@@ -83,3 +83,13 @@ A bidirectional Encoder Representation that uses transformers as its base archit
 * The standard size of the sentence is 150 words, however, Padding has been added to meet this average.
 * GRU model has been trained for 10 epochs and RoBERTa has been trained for 5 epochs.
 * We determine the effectiveness of the model, F-1 Score, accuracy, precision and recall.
+
+## Result
+Following accuracy, precision, recall and F-1 score were obtained on a different model
+
+Model    | Linear SVM | Kernel SVM | GRU + GloVe | RoBERTa + MLP  
+---      | ---        | ---        | ---         |---            
+Accuracy | 0.856      |  0.855     | 0.841       | 0.899      
+Precision| 0.859      |  0.856     | 0.849       | 0.875        
+Recall   | 0.858      |  0.855     | 0.831       | 0.831          
+F-1 Score| 0.858      |  0.855     | 0.836       | 0.88
