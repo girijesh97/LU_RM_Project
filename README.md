@@ -14,7 +14,7 @@ This repository contains python code to detect cyberbullying in text using machi
 # Project Description
 
 ## Workflow
-<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_12.png" align="center"  width="300" />
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_12.png" alt="Complete Workflow" align="center"  width="300" />
 
 ## Introduction
 This repo contains `Lakehead_RM_Project` notebook which contains code for following work.
@@ -55,17 +55,21 @@ Created Linear SVM and Kernel SVM as a baseline machine learning to check perfor
 * Split data into train, test and validation set
 * Trained both model using Scikit learn library.
 
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_06.png" alt="Linear and kernel SVM" align="center"  width="300" />                                                                                                                                      
+
 #### 2. GRU with GloVe Embedding 
 GRU is a type of recurrent neural network (RNN) which works great with sequences like text.
 * It has ability to learn long sequence of text with its special gates.
 * Its well known for understanding context of a sentence by remembering past information present in the sentence by using its gates.
 * GloVe embedding stands for Global Vectors and it is a count based, unsupervised learning model that captures both global statistics and local statistics of a corpus, to model the vector representation of words.
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_07.PNG" alt="GRU architecture" align="center"  width="300" />
 
 #### 3. RoBERTa and MLP
 A bidirectional Encoder Representation which uses transformers as its base architecture.
 * It helps to learn and predict hidden patterns in the text.
 * Modification of the key hyperparameters of BERT, which includes removing next sentence prediction objective.
-* To achieve even more appropriate classification, MLP has been addead on top of RoBERTa.
+* To achieve even more appropriate classification results, MLP has been addead on top of RoBERTa.
+<img src="https://github.com/girijesh97/LU_RM_Project/blob/master/images/rm_img_10.PNG" alt="Transformers architecture" align="center"  width="300" />
 
 ## Model Evaluation
 * _Data divison_ has taken place as follows:
@@ -73,8 +77,15 @@ A bidirectional Encoder Representation which uses transformers as its base archi
 2. 10% Validation data during training.
 3. 10%  Testing data.
 * The standard size of sentence is 150 words, however, Padding has been added to meet this average.
-* GRU model has been trained for 10 epochs and RoBERTa has been trained for 7 epochs.
-* We determine the effectiveness of the model, F-1 Score and accuracy.
+* GRU model has been trained for 10 epochs and RoBERTa has been trained for 5 epochs.
+* We determine the effectiveness of the model, F-1 Score, accuracy, precision and recall.
 
 ## Result
-An Average of evaluation metric is 85%. For, linear SVM and Kernel SVM all matrices are almost equal which proves data linearity separable. 
+Following accuacy, precision, recall and F-1 score were obtained on different model
+
+Model    | Linear SVM | Kernel SVM | GRU + GloVe | RoBERTa + MLP  
+---      | ---        | ---        | ---         |---            
+Accuracy | 0.856      |  0.855     | 0.841       | 0.899       
+Precision| 0.859      |  0.856     | 0.849       | 0.875         
+Recall   | 0.858      |  0.855     | 0.831       | 0.831           
+F-1 Score| 0.858      |  0.855     | 0.836       | 0.881            
