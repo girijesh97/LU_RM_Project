@@ -9,6 +9,7 @@ Notebook 1: This notebook contains code for following work.
 3. Data Analysis and plotting
 4. Model Building
 5. Model Evaluation
+6. Results
 
 ## Environment
 This notebook is based on python 3.0+. Most of the library comes pre-installed with Google Colab. Rest required libraries can be installed by running first block of the code.
@@ -40,7 +41,27 @@ Created Linear SVM and Kernel SVM as a baseline machine learning to check perfor
 * Vectorized data using TF-IDF mechanism
 * Split data into train, test and validation set
 * Trained both model using Scikit learn library.
+
 #### 2. GRU with GloVe Embedding 
+GRU is a type of recurrent neural network (RNN) which works great with sequences like text.
+* It has ability to learn long sequence of text with its special gates.
+* Its well known for understanding context of a sentence by remembering past information present in the sentence by using its gates.
+* GloVe embedding stands for Global Vectors and it is a count based, unsupervised learning model that captures both global statistics and local statistics of a corpus, to model the vector representation of words.
 
+#### 3. RoBERTa and MLP
+A bidirectional Encoder Representation which uses transformers as its base architecture.
+* It helps to learn and predict hidden patterns in the text.
+* Modification of the key hyperparameters of BERT, which includes removing next sentence prediction objective.
+* To achieve even more appropriate classification, MLP has been addead on top of RoBERTa.
 
+## Model Evaluation
+* _Data divison_ has taken place as follows:
+1. 80% of Training data.
+2. 10% Validation data during training.
+3. 10%  Testing data.
+* The standard size of sentence is 150 words, however, Padding has been added to meet this average.
+* GRU model has been trained for 10 epochs and RoBERTa has been trained for 7 epochs.
+* We determine the effectiveness of the model, F-1 Score and accuracy.
 
+## Result
+An Average of evaluation metric is 85%. For, linear SVM and Kernel SVM all matrices are almost equal which proves data linearity separable. 
