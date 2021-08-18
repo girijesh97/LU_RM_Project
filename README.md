@@ -6,11 +6,12 @@ This repository contains python code to detect cyberbullying in text using machi
 - A list of the top-level files in this project with a description of what each file is.
 
 ```                    
-- images/                                               ----> contains images that are used in README.md
+- images/     ----> contains images that are used in README.md
 
-- Lakehead_RM_Cyberbullying_Detection_Project.ipynb.ipynb ----> Python Notebook contains code for the project
+- Lakehead_RM_Cyberbullying_Detection_Project.ipynb.ipynb 
+              ----> Python Notebook contains code for the project
 
-- README.md                                             ----> This markdown file you are reading.
+- README.md   ----> This markdown file you are reading.
 
 ```
 
