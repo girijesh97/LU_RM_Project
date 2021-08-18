@@ -1,6 +1,19 @@
 ## Cyberbullying detection in text using machine learning and deep learning (v 1.0)
 This repository contains python code to detect cyberbullying in text using machine learning algorithms like Support Vector Machine  (SVM), deep learning models like GRU + GloVe, and RoBERTa with multi-layer perceptron on it.
 
+## Manifest
+
+- A list of the top-level files in this project with a description of what each file is.
+
+```                    
+- images/                                               ----> contains images that are used in README.md
+
+- Lakehead_RM_Cyberbullying_Detection_Project.ipynb.ipynb ----> Python Notebook contains code for the project
+
+- README.md                                             ----> This markdown file you are reading.
+
+```
+
 ## Environment
 This notebook is based on python 3.0+. Most of the library comes pre-installed with Google Colab. Rest required libraries can be installed by running the first block of the code.
 
